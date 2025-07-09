@@ -1,5 +1,6 @@
 import jdk.nio.mapmode.ExtendedMapMode;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class Main {
@@ -30,6 +31,7 @@ public class Main {
         System.out.println("Сотрудник с макс ЗП: " + findEmployeeWithMaxSalary());
         System.out.println("Средняя ЗП: " + calculateAverageOfSalaries());
         printFullnames();
+
     }
 
     private static void print() {
